@@ -14,7 +14,7 @@ build: $(OBJS)
 		@$(CXX) -o $(BUILD_DIR)$(EXECUTABLE) $(BUILD_DIR)$^ $(LDFLAGS)
 		@echo "...done!"
 
-run: test
+run: build
 		@echo "Running program:"
 		@./$(BUILD_DIR)$(EXECUTABLE)
 
