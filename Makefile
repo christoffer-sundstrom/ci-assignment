@@ -28,4 +28,4 @@ clean:
 		@echo "Cleaning build folder."
 		@rm -rf $(BUILD_DIR)
 
-.PHONY: all clean run
+.PHONY: all clean
