@@ -15,4 +15,4 @@ jobs:
     - name: install deps
       run: sudo apt-get install build-essential make googletest google-mock libgtest-dev libgmock-dev 
     - name: build and run program
-      run: make clean && make && make run
+      run: make && make run
